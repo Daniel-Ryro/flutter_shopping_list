@@ -70,13 +70,12 @@ class ShoppingListCard extends StatelessWidget {
           actions: [
             TextButton(
               onPressed: () {
-                Navigator.of(context).pop(); // Fecha o dialog sem excluir
+                Navigator.of(context).pop();
               },
               child: const Text('Cancel'),
             ),
             TextButton(
               onPressed: () {
-                // Remove a lista de compras e fecha o dialog
                 homeStore.RemoveShoppingList(currentList);
                 Navigator.of(context).pop();
               },

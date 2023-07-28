@@ -25,7 +25,6 @@ class _ShoppingListPageState extends State<ShoppingListPage> {
 
   @override
   Widget build(BuildContext context) {
-    inspect(widget.currentList.items);
     return Scaffold(
       appBar: AppBar(
         leading: BackButton(onPressed: () {
