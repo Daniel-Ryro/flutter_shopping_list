@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shopping_list/apptheme.dart';
-import 'package:flutter_shopping_list/models/shoppingListModel.dart';
-import 'package:flutter_shopping_list/stores/home/home.store.dart';
+import 'package:flutter_shopping_list/models/shopping_list_model.dart';
+import 'package:flutter_shopping_list/stores/home/home_store.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 
 // ignore: must_be_immutable

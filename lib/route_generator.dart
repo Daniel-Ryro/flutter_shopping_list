@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_shopping_list/pages/add_new_shopping_list.dart';
 import 'package:flutter_shopping_list/pages/add_new_shopping_list_item.dart';
 import 'package:flutter_shopping_list/pages/home.dart';
-import 'package:flutter_shopping_list/pages/notFound.dart';
+import 'package:flutter_shopping_list/pages/not_found.dart';
 import 'package:flutter_shopping_list/pages/shopping_list_page.dart';
-import 'package:flutter_shopping_list/routesconstants.dart';
-import 'package:flutter_shopping_list/stores/home/home.store.dart';
+import 'package:flutter_shopping_list/routes_constants.dart';
+import 'package:flutter_shopping_list/stores/home/home_store.dart';
 
 class Routegenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {

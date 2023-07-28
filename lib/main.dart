@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shopping_list/apptheme.dart';
-import 'package:flutter_shopping_list/routeGenerator.dart';
-import 'package:flutter_shopping_list/routesconstants.dart';
+import 'package:flutter_shopping_list/route_generator.dart';
+import 'package:flutter_shopping_list/routes_constants.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 
 void main() {

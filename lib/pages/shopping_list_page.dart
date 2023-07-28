@@ -3,9 +3,9 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter_shopping_list/app_common_data.dart';
 import 'package:flutter_shopping_list/components/shopping_list_item_card.dart';
-import 'package:flutter_shopping_list/models/shoppingListModel.dart';
-import 'package:flutter_shopping_list/routesconstants.dart';
-import 'package:flutter_shopping_list/stores/home/home.store.dart';
+import 'package:flutter_shopping_list/models/shopping_list_model.dart';
+import 'package:flutter_shopping_list/routes_constants.dart';
+import 'package:flutter_shopping_list/stores/home/home_store.dart';
 
 // ignore: must_be_immutable
 class ShoppingListPage extends StatefulWidget {

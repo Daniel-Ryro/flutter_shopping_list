@@ -1,7 +1,7 @@
-import 'package:flutter_shopping_list/models/shoppingListModel.dart';
+import 'package:flutter_shopping_list/models/shopping_list_model.dart';
 import 'package:mobx/mobx.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-part 'home.store.g.dart';
+part 'home_store.g.dart';
 
 class HomeStore = _HomeStoreBase with _$HomeStore;
 

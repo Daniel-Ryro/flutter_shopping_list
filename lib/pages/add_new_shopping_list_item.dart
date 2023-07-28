@@ -2,8 +2,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_shopping_list/app_common_data.dart';
 import 'package:flutter_shopping_list/apptheme.dart';
-import 'package:flutter_shopping_list/models/shoppingListModel.dart';
-import 'package:flutter_shopping_list/stores/home/home.store.dart';
+import 'package:flutter_shopping_list/models/shopping_list_model.dart';
+import 'package:flutter_shopping_list/stores/home/home_store.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 
